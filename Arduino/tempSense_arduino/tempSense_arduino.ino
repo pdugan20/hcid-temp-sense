@@ -4,6 +4,7 @@
 
 #define COMMAND_TEMPERATURE 0x4
 #define INPUT_PIN_0 0x0
+
 //-----
 //change those values according to your thermistor's datasheet
 long r0 = 4700;
@@ -16,12 +17,21 @@ float v_in = 5.0;
 double r_inf;
 double currentThermistorResistance;
 
-AndroidAccessory acc("Manufacturer",
-		     "Project08",
-		     "Description",
-		     "Version",
-		     "URI",
-		     "Serial");
+/*
+AndroidAccessory(const char *manufacturer,
+                 const char *model,
+                 const char *description,
+                 const char *version,
+                 const char *uri,
+                 const char *serial);
+*/
+
+AndroidAccessory acc("UW MHCID",
+		     "HCID TempSense",
+		     "A temperature sensing android application",
+		     "0.1a",
+		     "https://github.com/pdugan20/hcid-temp-sense",
+		     "0000000012345678");
 
 byte sntmsg[6];
 
