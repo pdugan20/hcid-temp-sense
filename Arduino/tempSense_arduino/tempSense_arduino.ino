@@ -51,9 +51,8 @@ byte sntmsg[6];
 
 void setup() {
   Serial.begin(19200);
-  acc.powerOn();
-  // changed from powerOn() to begin()
   // acc.begin();
+  acc.powerOn();
   sntmsg[0] = COMMAND_TEMPERATURE;
   sntmsg[1] = INPUT_PIN_0;
   r_inf = r0 * (exp((-beta) / t0));
@@ -64,12 +63,22 @@ void loop() {
     int currentADCValue = analogRead(INPUT_PIN_0);
     
     float voltageMeasured = getCurrentVoltage(currentADCValue);
+    Serial.print("voltageMeasured: ");
+    Serial.println(voltageMeasured);
+    
     double currentThermistorResistance = getCurrentThermistorResistance(voltageMeasured);
+    Serial.print("currentThermistorResistance: ");
+    Serial.println(currentThermistorResistance);
+    
     double currentTemperatureInDegrees = getCurrentTemperatureInDegrees(currentThermistorResistance);
+    Serial.print("currentTemperatureInDegrees: ");
+    Serial.println(currentTemperatureInDegrees);
     
     // multiply the float value by 10 to retain one value behind the decimal point before converting
     // to an integer for better value transmission
     int convertedValue = currentTemperatureInDegrees * 10;
+    Serial.print("convertedValue: ");
+    Serial.println(convertedValue);
     
     sntmsg[2] = (byte) (convertedValue >> 24);  
     sntmsg[3] = (byte) (convertedValue >> 16);  
