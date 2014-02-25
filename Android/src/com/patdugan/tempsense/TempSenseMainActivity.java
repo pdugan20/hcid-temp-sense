@@ -11,21 +11,36 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.hardware.usb.UsbAccessory;
-import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 import com.patdugan.tempsense.R;
 
+// if using add-on
+// import com.android.future.usb.UsbAccessory;
+// import com.android.future.usb.UsbManager;
+
+// if using built-in APIs and not the add-on
+import android.hardware.usb.UsbAccessory;
+import android.hardware.usb.UsbManager;
+
 public class TempSenseMainActivity extends Activity {
 
-	private static final String TAG = TempSenseMainActivity.class.getSimpleName();
+	private static final String TAG = TempSenseMainActivity.class
+			.getSimpleName();
 
 	private PendingIntent mPermissionIntent;
-	private static final String ACTION_USB_PERMISSION = "com.android.example.USB_PERMISSION";
-	private boolean mPermissionRequestPending;
+	// private static final String ACTION_USB_PERMISSION =
+	// "com.android.example.USB_PERMISSION";
 
+	// Alternate permission request
+	// private static final String ACTION_USB_PERMISSION =
+	// "com.patdugan.tempsense.USB_PERMISSION";
+
+	private static final String ACTION_USB_PERMISSION = TempSenseMainActivity.class
+			.getPackage() + ".USB_PERMISSION";
+
+	private boolean mPermissionRequestPending;
 	private UsbManager mUsbManager;
 	private UsbAccessory mAccessory;
 	private ParcelFileDescriptor mFileDescriptor;
@@ -41,14 +56,14 @@ public class TempSenseMainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+
 		// http://developer.android.com/guide/topics/connectivity/usb/accessory.html
 		// if using the add-on library
 		// mUsbManager = UsbManager.getInstance(this);
-		
+
 		// if not using the add-on library
 		mUsbManager = (UsbManager) getSystemService(Context.USB_SERVICE);
-		
+
 		mPermissionIntent = PendingIntent.getBroadcast(this, 0, new Intent(
 				ACTION_USB_PERMISSION), 0);
 		IntentFilter filter = new IntentFilter(ACTION_USB_PERMISSION);
@@ -115,9 +130,10 @@ public class TempSenseMainActivity extends Activity {
 				synchronized (this) {
 					// if using add-on library
 					// UsbAccessory accessory = UsbManager.getAccessory(intent);
-					
+
 					// if not using add-on library
-					UsbAccessory accessory = (UsbAccessory) intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
+					UsbAccessory accessory = (UsbAccessory) intent
+							.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
 					if (intent.getBooleanExtra(
 							UsbManager.EXTRA_PERMISSION_GRANTED, false)) {
 						openAccessory(accessory);
@@ -130,9 +146,10 @@ public class TempSenseMainActivity extends Activity {
 			} else if (UsbManager.ACTION_USB_ACCESSORY_DETACHED.equals(action)) {
 				// if using add-on library
 				// UsbAccessory accessory = UsbManager.getAccessory(intent);
-				
+
 				// if not using add-on library
-				UsbAccessory accessory = (UsbAccessory) intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
+				UsbAccessory accessory = (UsbAccessory) intent
+						.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
 				if (accessory != null && accessory.equals(mAccessory)) {
 					closeAccessory();
 				}
@@ -186,17 +203,15 @@ public class TempSenseMainActivity extends Activity {
 				case COMMAND_TEMPERATURE:
 
 					if (buffer[1] == TARGET_PIN) {
-						final float temperatureValue =
-								(((buffer[2] & 0xFF) << 24)
+						final float temperatureValue = (((buffer[2] & 0xFF) << 24)
 								+ ((buffer[3] & 0xFF) << 16)
-								+ ((buffer[4] & 0xFF) << 8)
-								+ (buffer[5] & 0xFF))
-								/ 10;
+								+ ((buffer[4] & 0xFF) << 8) + (buffer[5] & 0xFF)) / 10;
 						runOnUiThread(new Runnable() {
 
 							@Override
 							public void run() {
-								temperatureView.setCurrentTemperature(temperatureValue);
+								temperatureView
+										.setCurrentTemperature(temperatureValue);
 							}
 						});
 					}

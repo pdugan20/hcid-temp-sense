@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <usb-accessory manufacturer="UW MHCID" model="HCID TempSense" version="0.1a" />
+    <usb-accessory manufacturer="UW MHCID" model="HCID TempSense" version="0.1" />
 </resources>
