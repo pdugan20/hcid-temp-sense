@@ -12,6 +12,7 @@ import android.view.View;
 import com.patdugan.tempsense.R;
 
 public class TemperatureView extends View {
+	
 	private float currentTemperature;
 	private Paint textPaint = new Paint();
 	private Paint thermometerPaint = new Paint();
@@ -80,13 +81,12 @@ public class TemperatureView extends View {
 	}
 	
 	@Override
-	protected void onDraw(Canvas canvas) {
+	protected void onDraw(Canvas canvas) {		
 		super.onDraw(canvas);
 		//draw shapes
 		canvas.drawOval(thermometerOval, thermometerPaint);
 		canvas.drawRect(thermometerRect, thermometerPaint);
 		//draw text in the upper left corner
-		canvas.drawText(getContext().getString(R.string.temperature_value, currentTemperature), availableWidth / 10, availableHeight / 10, textPaint);
+		canvas.drawText(getContext().getString(R.string.temperature_value, currentTemperature), availableWidth / 15, availableHeight / 15, textPaint);
 	}
-	
 }

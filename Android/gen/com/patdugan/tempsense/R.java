@@ -224,7 +224,8 @@ containing a value of this type.
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;
         public static final int satellite=0x7f060002;
-        public static final int temperature_view=0x7f060005;
+        public static final int temp_view=0x7f060005;
+        public static final int temperature_view=0x7f060006;
         public static final int terrain=0x7f060003;
     }
     public static final class integer {

@@ -44,7 +44,7 @@ AndroidAccessory acc("UW MHCID",
 		     "HCID TempSense",
 		     "A temperature sensing android application",
 		     "0.1",
-		     "https://github.com/pdugan20/hcid-temp-sense",
+		     "https://www.dropbox.com/s/zso6idkfio0nepa/TempSense.apk",
 		     "0000000012345678");
 
 byte sntmsg[6];

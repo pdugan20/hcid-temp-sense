@@ -46,7 +46,7 @@ public class TempSenseMainActivity extends Activity {
 	private ParcelFileDescriptor mFileDescriptor;
 	private FileInputStream mInputStream;
 	private FileOutputStream mOutputStream;
-
+	
 	private static final byte COMMAND_TEMPERATURE = 0x4;
 	private static final byte TARGET_PIN = 0x0;
 
