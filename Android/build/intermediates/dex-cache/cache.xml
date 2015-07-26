@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-a8506456878dcad371fdf476138c09c7be698f7c.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-f63afed00561eea4bf3369d050fe13d9045786b6.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-354b5a6bcd0a2c2a5474689f85de5e08a99616a1.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-90054fa6d5cdae6e98e0098526c8cbd486797221.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-70a615ded9bbacba5d77d78f6adbdbff5bbc0ee4.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-e30591628a116a542082ef4f9a87d1f914653d9f.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-510b424231e2a74b1acc34d31db8d45a1437bd6d.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-bc01965a1a497264cf5ba7a3b581623f9bb1b2cc.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-987bb406f18a75cca021e378c090ff09ff62912a.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-156e0e0c430e703c08cbe99ede51baa4d68c2ec9.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-b60b42ef48e569f7a437c75939fd48df80ebbc66.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-c35cab8dc101b4941c018ddee0a2da65c62fb9f1.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-a7857343dc038c21c62b633154aa5376e7b9b79a.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-76559ac92aacb9ad733ba54b8f94cfde89f76ae9.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-8dbfc452cc19bd0413ca321593ef92165acdac73.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-fb752ee8ad3f272867d92ad61f66f21e611f842c.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-dec13aa62e77a3dade3ab248c325acac0134e994.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-2c121955da67d6b459d5e31ac357fe4e327a9f78.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-be4ba71a304cd143b1691c6ad70b146ae11904db.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-31a153d10876ebdaf105f9e5fff409146fb3c339.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-c52156608734a2f10cea1292612787b749a18260.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-e965c2d183f97725c2f071a4e28f23ac3d970ab9.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-2f8f3ccc6e9a179852e198d3441a5265b0ca4e53.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-c75bae5d2dbcaadd127c1c68a0b9209c083b0728.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-d5ba439f86f2e4ef71c265a15f381992dc77d9be.jar" />
+    </item>
+    <item
+        jar="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/patdugan/GitHub/hcid-temp-sense/Android/app/build/intermediates/pre-dexed/debug/classes-9c4d01ad0822f9f18b80992922bf48cb5eb176ac.jar" />
+    </item>
+
+</items>
